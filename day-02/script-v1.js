@@ -8,8 +8,8 @@ btnNext.onclick = () => {
     console.clear();
     if (step < 4) step++;
     toggleActiveButtons();
-    addActiveCircle();
     updateProgressBar();
+    addActiveCircle();
 };
 
 btnPrev.onclick = () => {
